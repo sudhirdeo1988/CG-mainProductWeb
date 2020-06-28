@@ -1,0 +1,482 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Quiz</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./images/logo.jpg" alt="logo" /></a>
+			</div>
+			
+			<div class="c-left-sect c-searchBar">
+				<div class="search__fld">
+					<input type="text" class="txt-srch" placeholder="Search" />
+				</div>
+			</div>
+			
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"><img src="images/avatars/Avatar_12.jpg" alt="" /></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="javascript:void(0);">Sign out</a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-ring"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-controls"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+					
+				</ul>
+			</div>
+			
+		</div>
+		<!-- ****** header End ****** -->
+		
+		<!-- ****** body ****** -->
+		<div class="c-body">
+			
+			
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+				
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+			</div>
+			<!-- ****** Sidebar End ****** -->
+			
+			
+			<!-- ****** Container ****** -->
+			<div class="c-container clearfix">
+				
+				<div class="clearfix">
+				
+					<div class="divider-container margin0-bottom">
+						<div class="divider-block text--left">
+							<div class="c-brdcrum">
+								<a href="javascript:void(0)">Back to All Quizzes</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<span class="c-heading-lg">Assign Quiz</span>
+						</div>
+						<div class="divider-block text--right">
+							<button class="c-btn grayshade">Cancel</button>
+							<button class="c-btn prime">Assign Quiz</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="c-container__data">
+					
+
+					<!-- ** Card Container ** -->
+					<div class="card-container">
+						
+						<!-- ** Card ** -->
+						<div class="c-card">
+							<div class="c-card__form">
+								<div class="clearfix margin10-bottom">
+									<span class="c-heading-sm card--title margin25-bottom">BATCH DETAILS</span>
+									
+									<div class="form-group cust-fld">
+										<label>Class</label>
+										<div class="dropdown">
+											<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Class Name
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dLabel">
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="form-group cust-fld">
+										<label>Subject</label>
+										<div class="dropdown">
+											<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Subject Name
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dLabel">
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="form-group cust-fld">
+										<label>Batch</label>
+										<div class="dropdown">
+											<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Batch Name
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dLabel">
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								<div class="clearfix">
+									<span class="c-heading-sm card--title margin25-bottom">QUIZ SCHEDULE</span>
+									
+									<div class="form-group cust-fld">
+										<label>Publishing Date <sup>*</sup></label>
+										<div class="divider-container">
+											<div class="divider-block text--left">
+												<div class="form-group cust-fld">
+													<input type="text" class="form-control fld--date" placeholder="Enter Start Time">
+												</div>
+											</div>
+											<div class="divider-block text--left">
+												<div class="form-group cust-fld">
+													<input type="text" class="form-control fld--time" placeholder="Enter End Time">
+												</div>
+											</div>
+										</div>
+									</div>
+											
+									<div class="form-group cust-fld">
+										<label>Due Date <sup>*</sup></label>
+										<div class="divider-container">
+											<div class="divider-block text--left">
+												<div class="form-group cust-fld">
+													<input type="text" class="form-control fld--date" placeholder="Enter Start Time">
+												</div>
+											</div>
+											<div class="divider-block text--left">
+												<div class="form-group cust-fld">
+													<input type="text" class="form-control fld--time" placeholder="Enter End Time">
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<!-- ** Card End ** -->
+						
+						
+						<!-- ** Card ** -->
+						<div class="c-card">
+							<div class="c-card__title">
+								<span class="c-heading-sm card--title  margin25-bottom">
+									SELECT QUIZ
+								</span>
+							</div>
+							
+							<!-- ** Quiz Btns ** -->
+							<div class="quiz-btns">
+								<div class="c-quiz-btn">
+									<button>
+										<i class="i-img"><img src="images/icon_folder.png" /></i>
+										Select Quiz from CleverGround Drive
+									</button>
+								</div>
+								<div class="c-quiz-btn">
+									<button data-toggle="modal" data-target="#createQuiz">
+										<i class="i-img"><img src="images/icon_add.png" /></i>
+										Create new Quiz
+									</button>
+								</div>
+							</div>
+							<!-- ** Quiz Btns End ** -->
+							
+							<!-- ** Quiz Selected ** -->
+							<div class="quiz-btns noborder">
+								<span class="c-heading-sm card--title  margin25-bottom">SELECTED QUIZ</span>
+								<div class="form-group static-fld">
+									<label>Title</label>
+									<span class="info-type">Study of Elements</span>
+								</div>
+								<div class="form-group static-fld">
+									<label>Topic</label>
+									<span class="info-type">Study of Elements</span>
+								</div>
+								<div class="form-group static-fld clearfix">
+									<label>Folder</label>
+									<span class="info-type pull-left">Chem - Unit 2</span>
+									<button class="link--btn pull-right"><i class="icon cg-folder-o"></i>Open</button>
+								</div>
+							</div>
+							<!-- ** Quiz Selected End ** -->
+							
+						</div>
+						<!-- ** Card End ** -->
+
+					</div>
+					<!-- ** Card Container End ** -->
+				
+				</div>
+			</div>
+			<!-- ****** Container End ****** -->
+			
+			
+		</div>
+		<!-- ****** body End ****** -->
+		
+		
+		<!-- ****** CREATE NEW QUIZ modal ****** -->
+		<div class="modal fade custom-modal-sm width--lg" id="createQuiz" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon cg-times"></i></button>
+						<h4 class="c-heading-sm card--title">CREATE NEW QUIZ</h4>
+					</div>
+					<div class="modal-body">
+
+						<div class="divider-container addBatch-container">
+							<!-- **** Section first **** -->
+							<div class="divider-block">
+								<div class="cust-m-info">Enter details for the quiz.</div>
+								
+								<div class="form-group cust-fld">
+									<label>Class</label>
+									<div class="dropdown">
+										<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Dropdown
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dLabel">
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="form-group cust-fld">
+									<label>Subject</label>
+									<div class="dropdown">
+										<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Dropdown
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dLabel">
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="form-group cust-fld">
+									<label>Quiz Title <sup>*</sup></label>
+									<div class="dropdown">
+										<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Dropdown
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dLabel">
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="form-group cust-fld">
+									<label>Topic of Quiz (Optional)</label>
+									<input type="text" class="form-control" placeholder="Quiz Title">
+								</div>
+								
+								
+							</div>
+							<!-- **** Section first End **** -->
+							
+							<!-- **** Section Second **** -->
+							<div class="divider-block">
+								<div class="form-group cust-fld">
+									<label>Folder <sup>*</sup></label>
+									<div class="dropdown">
+										<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Dropdown
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dLabel">
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="form-group cust-fld">
+									<label>Marks for each question</label>
+									<input type="text" class="form-control" placeholder="Quiz Title">
+								</div>
+								
+								<div class="form-group cust-fld">
+									<label>Select Quiz type</label>
+									<div class="c-btnRadio">
+										<button class="st-active">Type Questions</button>
+										<button>Upload PDF</button>
+									</div>
+								</div>
+
+							</div>
+							<!-- **** Section Second End **** -->
+						</div>
+					
+					</div>
+					<div class="modal-footer">
+						<div class="clearfix text--right">
+							<button class="c-btn grayshade" data-dismiss="modal">Cancel</button>
+							<button class="c-btn primary">Create Quiz</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ****** CREATE NEW QUIZ modal End ****** -->
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

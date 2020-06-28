@@ -1,0 +1,636 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Student Details</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./images/logo.jpg"  alt="logo" /></a>
+			</div>
+			
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="javascript:void(0);">Sign out</a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-ring"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-controls"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+					
+				</ul>
+			</div>
+			
+		</div>
+		<!-- ****** header End ****** -->
+		
+		<!-- ****** body ****** -->
+		<div class="c-body">
+			
+			
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+				
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+			</div>
+			<!-- ****** Sidebar End ****** -->
+			
+			
+			<!-- ****** Container ****** -->
+			<div class="c-container clearfix">
+				
+				<div class="clearfix">
+					<div class="c-brdcrum">
+						<a href="javascript:void(0)">Back to Student Directory</a>
+					</div>
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<span class="c-heading-lg">Student Details</span>
+						</div>
+						<div class="divider-block text--right">
+							<button class="c-btn grayshade">Back</button>
+							<button class="c-btn prime">Save changes</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="c-container__data">
+					
+					<!-- ** Card Container ** -->
+					<div class="card-container">
+					
+						<!-- ** Card ** -->
+						<div class="c-card">
+							<div class="c-card__title">
+								<span class="c-heading-sm card--title">
+									PERSONAL DETAILS
+								</span>
+							</div>
+							
+							<div class="clearfix">
+								<div class="c-card__form">
+								
+									<div class="form-group cust-fld">
+										<label>Name</label>
+										<input type="text" class="form-control" placeholder="Full Name Goes Here" />
+									</div>
+											
+									<div class="divider-container">
+										<div class="divider-block text--left">
+											<div class="form-group cust-fld">
+												<label>Phone</label>
+												<input type="text" class="form-control" placeholder="Phone" />
+											</div>
+											<div class="form-group cust-fld">
+												<label>Email</label>
+												<input type="email" class="form-control" placeholder="Email" />
+											</div>
+										</div>
+										<div class="divider-block text--left">
+											<div class="c-user-pic">
+												<span class="fld-title">Avatar</span>
+												<div class="user--img"><img src="images/avatars/Avatar_13.jpg" alt="Avatar" /></div>
+												<button class="link--btn">Change Avatar</button>
+											</div>
+										</div>
+									</div>
+								
+
+									<div class="form-group cust-fld">
+										<label>College</label>
+										<input type="text" class="form-control" placeholder="College" />
+									</div>
+									<div class="form-group cust-fld">
+										<label>Date of Birth</label>
+										<input type="text" class="form-control fld--date" placeholder="Date of Birth" />
+									</div>
+									<div class="form-group cust-fld">
+										<label>Gurdian Name</label>
+										<input type="text" class="form-control" placeholder="Gurdian Name" />
+									</div>
+									<div class="form-group cust-fld">
+										<label>Gurdian Phone</label>
+										<input type="text" class="form-control" placeholder="Gurdian Phone" />
+									</div>
+
+								
+								</div>
+							</div>
+							
+							
+						</div>
+						<!-- ** Card End ** -->
+						
+						
+						<!-- ** Card ** -->
+						<div class="c-card">
+							<div class="c-card__title">
+								<span class="c-heading-sm card--title">
+									Batches
+									<span class="c-count filled">5</span>
+								</span>
+							</div>
+							
+							<div class="c-card__items">
+								<!-- ** Batch Section ** -->
+								<div class="c-batchList">
+									<span class="c-batchList__title">12th Standard</span>
+									<div class="c-batchList__list">
+										<ul>
+											<li>
+												<a href="javascript:void(0);">
+													<span>Chemistry</span>
+													<span>Saturday Morning</span>
+												</a>
+												<div class="card__elem__setting">
+													<button class="act-delete"></button>
+												</div>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span>Chemistry</span>
+													<span>Saturday Morning</span>
+												</a>
+												<div class="card__elem__setting">
+													<button class="act-delete"></button>
+												</div>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span>Chemistry</span>
+													<span>Saturday Morning</span>
+												</a>
+												<div class="card__elem__setting">
+													<button class="act-delete"></button>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- ** Batch Section End ** -->
+								
+								<!-- ** Batch Section ** -->
+								<div class="c-batchList">
+									<span class="c-batchList__title">CET</span>
+									<div class="c-batchList__list">
+										<ul>
+											<li>
+												<a href="javascript:void(0);">
+													<span>Chemistry</span>
+													<span>Morning 11.30 to 12.30</span>
+												</a>
+												<div class="card__elem__setting">
+													<button class="act-delete"></button>
+												</div>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													<span>Chemistry</span>
+													<span>Morning 11.30 to 12.30</span>
+												</a>
+												<div class="card__elem__setting">
+													<button class="act-delete"></button>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- ** Batch Section End ** -->
+							</div>
+							
+							<div class="c-card__btnCont">
+								<button class="c-btn-large primary" data-toggle="modal"  data-target="#addBatch">+ Add Batches</button>
+							</div>
+							
+						</div>
+						<!-- ** Card End ** -->
+						
+						
+						<!-- ** Card ** -->
+						<div class="c-card">
+							<div class="c-card__title">
+								<span class="c-heading-sm card--title">
+									Activity
+								</span>
+							</div>
+							
+							<div class="c-card__items">
+								<div class="c-card__form">
+								
+									<div class="divider-container">
+										<div class="divider-block text--left">
+											<div class="form-group static-fld">
+												<label>Homeworks</label>
+												<span class="info-type st-alert">12 / 14 Completed</span>
+											</div>
+										</div>
+										<div class="divider-block text--left">
+											<div class="form-group static-fld">
+												<label>Quizes</label>
+												<span class="info-type st-alert">12 / 14 Completed</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="clearfix">
+									<div class="c-card__title">
+										<span class="c-heading-sm card--title">
+											FEES
+										</span>
+									</div>
+									
+									<div class="c-card__form">
+									
+										<div class="divider-container">
+											<div class="divider-block text--left">
+												<div class="form-group static-fld">
+													<label>Total Fees</label>
+													<span class="info-type">₹ 75,000 /-</span>
+												</div>
+											</div>
+											<div class="divider-block text--left">
+												<div class="form-group static-fld">
+													<label>Payment Cycle</label>
+													<div class="dropdown-custome">
+														<select>
+															<option>Batch Name</option>
+															<option>Opt 2</option>
+															<option>Opt 3</option>
+															<option>Opt 4</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									
+										<div class="divider-container">
+											<div class="divider-block text--left">
+												<div class="form-group static-fld">
+													<label>Enrollment Date</label>
+													<span class="info-type">12 Feb 2019</span>
+												</div>
+											</div>
+											<div class="divider-block text--left">
+												<div class="form-group static-fld">
+													<label>Fees Paid</label>
+													<span class="info-type">₹ 50,000 /-</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="divider-container">
+											<div class="divider-block text--left">
+												<div class="form-group static-fld">
+													<label>Due</label>
+													<span class="info-type st-alert">₹ 25,000 /-</span>
+												</div>
+											</div>
+											<div class="divider-block text--left">
+												<div class="form-group static-fld">
+													<label>Due Date</label>
+													<span class="info-type st-alert">12 Feb 2019</span>
+												</div>
+											</div>
+										</div>
+										
+										<!-- *** Payment Listing *** -->
+										<div class="clearfix">
+											<div class="form-group static-fld">
+												<label>Previous Payments</label>
+												<div class="c-paymentsHist">
+													<ul>
+														<li>
+															<span>21/02/2018</span>
+															<span>₹ 25,000 /-</span>
+															<div class="card__elem__setting">
+																<button class="act-edit"></button>
+																<button class="act-delete"></button>
+															</div>
+														</li>
+														<li>
+															<span>21/02/2018</span>
+															<span>₹ 25,000 /-</span>
+															<div class="card__elem__setting">
+																<button class="act-edit"></button>
+																<button class="act-delete"></button>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<!-- *** Payment Listing End *** -->
+										
+									</div>
+								</div>
+								
+							</div>
+							
+							<div class="c-card__btnCont">
+								<button class="c-btn-large primary" data-toggle="modal"  data-target="#addPayment">+ Add Payments</button>
+							</div>
+							
+							
+						</div>
+						<!-- ** Card End ** -->
+					</div>
+					<!-- ** Card Container End ** -->
+				
+				</div>
+				
+			</div>
+			<!-- ****** Container End ****** -->
+			
+			
+		</div>
+		<!-- ****** body End ****** -->
+		
+		
+		<!-- ****** Add batch modal ****** -->
+		<div class="modal fade custom-modal-sm width--lg" id="addBatch" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon cg-times"></i></button>
+						<h4 class="c-heading-sm card--title">Add Batches</h4>
+					</div>
+					<div class="modal-body">
+
+						<div class="divider-container addBatch-container">
+							<!-- **** Section first **** -->
+							<div class="divider-block">
+								<div class="cust-m-info">Select class and select multiple subjects.</div>
+								<div class="form-group cust-fld">
+									<label>Class</label>
+									<div class="dropdown">
+										<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Dropdown
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dLabel">
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<!-- **** Subjects **** -->
+								<div class="c-subListing">
+									<div class="clearfix">
+										
+										<div class="subjectHeader clearfix">
+											<div class="pull-left"><div class="cust-m-info nomargin">Subjects</div></div>
+											<div class="pull-right">
+												<div class="form-group nomargin">
+													<label for="check-all" class="custome-field field-checkbox">
+														<input type="checkbox" name="check-one" id="check-all" value="checkone">
+														<i></i> <span>Select All</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										
+										<div class="subjectBody">
+											<ul>
+												<li><button class="listItem st-selected">Physics</button></li>
+												<li><button class="listItem">Chemistry</button></li>
+												<li><button class="listItem">Maths I</button></li>
+												<li><button class="listItem st-selected">Maths II</button></li>
+											</ul>
+										</div>
+										
+									</div>
+								</div>
+								<!-- **** Subjects End **** -->
+								
+							</div>
+							<!-- **** Section first End **** -->
+							
+							<!-- **** Section Second **** -->
+							<div class="divider-block">
+								<div class="cust-m-info">Select batch for each subject.</div>
+								<div class="c-batchSelect">
+									<div class="form-group cust-fld">
+										<label>Physics</label>
+										<div class="dropdown-custome">
+											<select>
+												<option>Batch Name</option>
+												<option>Opt 2</option>
+												<option>Opt 3</option>
+												<option>Opt 4</option>
+											</select>
+										</div>
+									</div>
+									
+									<div class="form-group cust-fld">
+										<label>Maths I</label>
+										<div class="dropdown-custome">
+											<select>
+												<option>Batch Name</option>
+												<option>Opt 2</option>
+												<option>Opt 3</option>
+												<option>Opt 4</option>
+											</select>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<!-- **** Section Second End **** -->
+						</div>
+					
+					</div>
+					<div class="modal-footer">
+						<div class="clearfix text--right">
+							<button class="c-btn grayshade" data-dismiss="modal">Cancel</button>
+							<button class="c-btn primary">Add Batches</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ****** Another batch modal End ****** -->
+		
+		
+		<!-- ****** Add Payment modal ****** -->
+		<div class="modal fade custom-modal-sm" id="addPayment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon cg-times"></i></button>
+						<h4 class="c-heading-sm card--title">Add Payment</h4>
+					</div>
+					<div class="modal-body">
+						<div class="cust-m-info">Enter date and payment amount.</div>
+						<div class="form-group cust-fld">
+							<label>Date</label>
+							<input type="text" class="form-control fld--date" placeholder="Date">
+						</div>
+						<div class="form-group cust-fld">
+							<label>Amount</label>
+							<input type="text" class="form-control" placeholder="Amount">
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<div class="clearfix text--right">
+							<button class="c-btn grayshade" data-dismiss="modal">Cancel</button>
+							<button class="c-btn primary">Add Payment</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ****** Another Payment modal End ****** -->
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

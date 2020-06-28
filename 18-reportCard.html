@@ -1,0 +1,419 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Report Card</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./images/logo.jpg"  alt="logo" /></a>
+			</div>
+
+			<div class="c-left-sect c-searchBar">
+				<div class="search__fld">
+					<input type="text" class="txt-srch" placeholder="Search" />
+				</div>
+			</div>
+
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="javascript:void(0);">Sign out</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li>
+						<button class="user-notify"><i class="icon cg-ring"></i></button>
+					</li>
+
+					<li>
+						<button class="user-notify"><i class="icon cg-controls"></i></button>
+					</li>
+
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+		<!-- ****** header End ****** -->
+
+		<!-- ****** body ****** -->
+		<div class="c-body">
+
+
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+
+			</div>
+			<!-- ****** Sidebar End ****** -->
+
+
+			<!-- ****** Container ****** -->
+			<div class="c-container dark clearfix">
+
+				<div class="clearfix">
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<span class="c-heading-lg">Abbie Luna’s Report Card</span>
+						</div>
+						<div class="divider-block text--right">
+							<button class="c-btn prime">Share Report</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="clearfix">
+					<div class="row">
+						<div class="col-md-4">
+							<!-- ****** Name Card ****** -->
+							<div class="c-repoCard">
+								<div class="divider-container stud-nameCard">
+									<div class="divider-block nameCard__pic">
+										<img src="./images/avatars/Avatar_1.jpg" alt="" />
+									</div>
+									<div class="divider-block nameCard__info">
+										<span class="studName">Abbie Luna</span>
+										<span class="studColegName">College Name</span>
+										<span class="studStd">12th Standard</span>
+									</div>
+								</div>
+							</div>
+							<!-- ****** Name Card End ****** -->
+
+							<!-- ****** Dropdown ****** -->
+							<div class="c-repoCard">
+									<div class="block-title st-colored noborder nomargin color-dark">VIEW REPORTS OF</div>
+									<div class="c-repoDropdown dropdown">
+											<button id="dLabel" type="button" data-toggle="dropdown" class="dropdown_btn">
+												First Year Engineering
+												<i class="icon cg-angle-down"></i>
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dLabel">
+												<li><a class="listItem">List Item</a></li>
+												<li><a class="listItem">List Item</a></li>
+												<li><a class="listItem">List Item</a></li>
+											</ul>
+										</div>
+							</div>
+							<!-- ****** Dropdown End ****** -->
+
+							<!-- ****** Graph card ****** -->
+							<div class="c-repoCard">
+								<div class="block-title st-colored noborder nomargin color-dark">ATTENDANCE</div>
+								<div class="divider-container stud-nameCard margin10-bottom">
+									<div class="divider-block nameCard__info nopad">
+										<span class="studName text-colored nomargin">76%</span>
+										<span class="studColegName">Average Attendance</span>
+									</div>
+								</div>
+
+								<!-- ** Graph ** -->
+								<div class="stud-graph sm">Graph here</div>
+								<!-- ** Graph ** -->
+
+								<!-- ** Attendance List ** -->
+								<div class="stud-attendanceList">
+									<div class="block-title st-colored noborder nomargin color-dark">BATCH-WISE ATTENDANCE</div>
+									<div class="attendanceList">
+										<ul>
+											<li>
+												<button class="clearfix">
+													<div class="pull-left class-list">
+														<span>12th</span>
+														<span>Maths</span>
+														<span>Saturday Batch</span>
+													</div>
+													<div class="pull-right marks-list">
+														<span>65%</span>
+														<i class="icon cg-angle-right"></i>
+													</div>
+												</button>
+											</li>
+											<li>
+												<button class="clearfix">
+													<div class="pull-left class-list">
+														<span>12th</span>
+														<span>Maths</span>
+														<span>Saturday Batch</span>
+													</div>
+													<div class="pull-right marks-list">
+														<span>65%</span>
+														<i class="icon cg-angle-right"></i>
+													</div>
+												</button>
+											</li>
+											<li>
+												<button class="clearfix">
+													<div class="pull-left class-list">
+														<span>12th</span>
+														<span>Maths</span>
+														<span>Saturday Batch</span>
+													</div>
+													<div class="pull-right marks-list">
+														<span>65%</span>
+														<i class="icon cg-angle-right"></i>
+													</div>
+												</button>
+											</li>
+										</ul>
+										</ul>
+									</div>
+								</div>
+								<!-- ** Attendance List End ** -->
+							</div>
+							<!-- ****** Graph Card End ****** -->
+
+						</div>
+
+						<div class="col-md-8">
+
+								<div class="c-repoCard nopad">
+										<div class="c-repoCard__tabs">
+
+												<!-- Nav tabs -->
+												<ul class="nav nav-tabs" role="tablist">
+													<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">MCQ REPORT</a></li>
+													<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">HOMEWORK REPORT</a></li>
+												</ul>
+
+												<!-- Tab panes -->
+												<div class="tab-content">
+
+													<!-- *** Tab 1 ** -->
+													<div role="tabpanel" class="tab-pane active" id="home">
+														<div class="block-title st-colored noborder nomargin color-dark">MARKS</div>
+
+														<!-- ** Graph ** -->
+														<div class="stud-graph lg margin25-bottom">Graph here</div>
+														<!-- ** Graph ** -->
+
+														<div class="divider-container sectionDivider">
+
+																<!-- ** Section 1 ** -->
+																<div class="divider-block section01">
+																	<div class="block-title st-colored noborder nomargin color-dark">Submission</div>
+																	<!-- ** Graph ** -->
+																	<div class="stud-graph">Graph here</div>
+																	<!-- ** Graph ** -->
+																</div>
+																<!-- ** Section 1 End ** -->
+
+																<!-- ** Section 2 ** -->
+																<div class="divider-block section02">
+																		<div class="block-title st-colored noborder nomargin color-dark">BATCH-WISE</div>
+																		<div class="attendanceList">
+																			<ul>
+																				<li>
+																					<button class="clearfix">
+																						<div class="pull-left class-list">
+																							<div class="graphColor col-1"></div>
+																							<span>12th</span>
+																							<span>Maths</span>
+																							<span>Saturday Batch</span>
+																						</div>
+																						<div class="pull-right marks-list">
+																							<span>3/5</span>
+																						</div>
+																					</button>
+																				</li>
+																				<li>
+																					<button class="clearfix">
+																						<div class="pull-left class-list">
+																							<div class="graphColor col-2"></div>
+																							<span>12th</span>
+																							<span>Maths</span>
+																							<span>Saturday Batch</span>
+																						</div>
+																						<div class="pull-right marks-list">
+																							<span>3/5</span>
+																						</div>
+																					</button>
+																				</li>
+																				<li>
+																					<button class="clearfix">
+																						<div class="pull-left class-list">
+																							<div class="graphColor col-3"></div>
+																							<span>12th</span>
+																							<span>Maths</span>
+																							<span>Saturday Batch</span>
+																						</div>
+																						<div class="pull-right marks-list">
+																							<span>3/5</span>
+																						</div>
+																					</button>
+																				</li>
+																			</ul>
+
+																		</div>
+																</div>
+																<!-- ** Section 2 End ** -->
+														</div>
+
+													</div>
+													<!-- *** Tab 1 End ** -->
+
+													<!-- *** Tab 2 ** -->
+													<div role="tabpanel" class="tab-pane" id="profile">Tab 2 data</div>
+													<!-- *** Tab 2 End ** -->
+												</div>
+
+											</div>
+
+								</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- ****** Container End ****** -->
+
+
+		</div>
+		<!-- ****** body End ****** -->
+
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="js/datatables.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

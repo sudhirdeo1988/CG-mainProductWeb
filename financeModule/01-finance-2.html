@@ -1,0 +1,612 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Finances</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="../images/fav.png">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="../css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./../images/logo.jpg"  alt="logo" /></a>
+			</div>
+
+			<div class="c-left-sect c-searchBar">
+				<div class="search__fld">
+					<input type="text" class="txt-srch" placeholder="Search" />
+				</div>
+			</div>
+
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="javascript:void(0);">Sign out</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li>
+						<button class="user-notify"><i class="icon cg-ring"></i></button>
+					</li>
+
+					<li>
+						<button class="user-notify"><i class="icon cg-controls"></i></button>
+					</li>
+
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+		<!-- ****** header End ****** -->
+
+		<!-- ****** body ****** -->
+		<div class="c-body">
+
+
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+
+			</div>
+			<!-- ****** Sidebar End ****** -->
+
+
+			<!-- ****** Container ****** -->
+			<div class="c-container dark clearfix">
+
+				<div class="clearfix">
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<span class="c-heading-lg margin10-bottom">Setup your Finances</span>
+						</div>
+						<div class="divider-block text--right">
+							<button class="c-btn prime">Save as Draft</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- ***** Wizard Component ***** -->
+				<div class="clearfix">
+					<div class="divider-container c-formWizard">
+
+						<div class="divider-block text--center st-active">
+							<div class="lineContainer">
+								<div class="circle"></div>
+								<div class="line"></div>
+							</div>
+							<div class="titleContainer">SELECT FEE STRUCTURE</div>
+						</div>
+
+						<div class="divider-block text--center">
+							<div class="lineContainer">
+								<div class="circle"></div>
+								<div class="line"></div>
+							</div>
+							<div class="titleContainer">CREATE FEE TEMLPATES</div>
+						</div>
+
+						<div class="divider-block text--center">
+							<div class="lineContainer">
+								<div class="circle"></div>
+								<div class="line"></div>
+							</div>
+							<div class="titleContainer">ENTER FINANCIAL INFORMATION</div>
+						</div>
+
+						<div class="divider-block text--center">
+							<div class="lineContainer">
+								<div class="circle"></div>
+							</div>
+							<div class="titleContainer">CONFIGURE PAYMENT METHODS</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- ***** Wizard Component End ***** -->
+
+				<div class="clearfix">
+					<div class="c-container__data for-finance">
+						<div class="container-fluid">
+
+							<div class="row margin25-bottom">
+
+									<div class="col-md-5">
+											<div class="form-group cust-fld">
+												<label class="text-bold">Select Fee Calculation Method</label>
+												<div class="btn-group btnGroup-cust" data-toggle="buttons">
+														<label class="btn c-btn active">
+															<input type="radio" name="options" id="option1" checked> Class-wise
+														</label>
+														<label class="btn c-btn">
+															<input type="radio" name="options" id="option2"> Subject-wise
+														</label>
+														<label class="btn c-btn">
+															<input type="radio" name="options" id="option3"> Batch-wise
+														</label>
+													</div>
+											</div>
+									</div>
+
+									<div class="col-md-3">
+											<div class="form-group cust-fld">
+												<div class="clearfix">
+													<label class="text-bold pull-left">Installment Type</label>
+													<button class="link--btn pull-right">Apply to all</button>
+												</div>
+												<div class="dropdown">
+														<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															Dropdown
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dLabel">
+															<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+															<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+															<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+														</ul>
+													</div>
+											</div>
+									</div>
+
+									<div class="col-md-4">
+										<div class="form-group cust-fld">
+												<div class="clearfix">
+													<label class="text-bold pull-left">Installment Type</label>
+													<button class="link--btn pull-right">Apply to all</button>
+												</div>
+											<!-- Date range Pick -->
+											<div class="c-dateRange">
+												<div class="dateContainer">
+														<input type="text" class="form-control" placeholder="Start Date">
+														<span>~</span>
+														<input type="text" class="form-control" placeholder="End Date">
+												</div>
+												<div class="dateIcon"></div>
+											</div>
+											<!-- Date range Pick End -->
+										</div>
+									</div>
+
+							</div>
+
+							<div class="row margin25-bottom">
+								<div class="col-md-12">
+									<div class="clearfix margin15-bottom">
+											<span class="c-heading-sm lg text-lowercase coloured card--title pull-left margin5-bottom">Add fee to each class</span>
+											<span class="c-notifyLabel step-2 pull-right">(4/4 classes Filled)</span>
+									</div>
+
+									<div class="clearfix financeTableSection">
+										<table class="table margin0-bottom">
+											<tr>
+												<th style="width: 18%;">Class Name</th>
+												<th style="width: 19%;">Installment Type</th>
+												<th style="width: 30%;">Duration</th>
+												<th style="width: 20%;">Fee Amount</th>
+												<th style="width: 13%;"></th>
+											</tr>
+
+											<tr>
+												<td><span class="clearfix text-bold">11th Standard</span></td>
+												<td>
+														<div class="form-group cust-fld">
+														<div class="dropdown">
+															<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																Dropdown
+															</button>
+															<ul class="dropdown-menu" aria-labelledby="dLabel">
+																<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+																<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+																<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+															</ul>
+														</div>
+														</div>
+												</td>
+												<td>
+													<!-- Date range Pick -->
+													<div class="c-dateRange">
+														<div class="dateContainer">
+															<input type="text" class="form-control" placeholder="Start Date">
+															<span>~</span>
+															<input type="text" class="form-control" placeholder="End Date">
+														</div>
+														<div class="dateIcon"></div>
+													</div>
+													<!-- Date range Pick End -->
+												</td>
+												<td>
+														<div class="form-group cust-fld feeAmount">
+																<input type="text" class="form-control borderColored">
+														</div>
+												</td>
+												<td><button class="link--btn" data-toggle="modal" data-target="#previewInvoice">Preview Invoices</button></td>
+											</tr>
+
+											<tr>
+													<td><span class="clearfix text-bold">11th Standard</span></td>
+													<td>
+															<div class="form-group cust-fld">
+															<div class="dropdown">
+																<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dropdown
+																</button>
+																<ul class="dropdown-menu" aria-labelledby="dLabel">
+																	<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+																	<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+																	<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+																</ul>
+															</div>
+															</div>
+													</td>
+													<td>
+														<!-- Date range Pick -->
+														<div class="c-dateRange">
+															<div class="dateContainer">
+																<input type="text" class="form-control" placeholder="Start Date">
+																<span>~</span>
+																<input type="text" class="form-control" placeholder="End Date">
+															</div>
+															<div class="dateIcon"></div>
+														</div>
+														<!-- Date range Pick End -->
+													</td>
+													<td>
+															<div class="form-group cust-fld feeAmount">
+																	<input type="text" class="form-control borderColored">
+															</div>
+													</td>
+													<td><button class="link--btn" data-toggle="modal" data-target="#previewInvoice">Preview Invoices</button></td>
+											</tr>
+										</table>
+									</div>
+
+								</div>
+							</div>
+
+
+							<div class="row">
+									<div class="col-md-12 text-right">
+										<button class="c-btn grayshade md">Previous</button>
+										<button class="c-btn md">Next</button>
+									</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ****** Container End ****** -->
+
+
+		</div>
+		<!-- ****** body End ****** -->
+
+		<!-- ****** Add batch modal ****** -->
+		<div class="modal fade custom-modal-lg" id="previewInvoice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon cg-times"></i></button>
+							<h4 class="c-heading-sm card--title">PREVIEW INVOICES</h4>
+						</div>
+						<div class="modal-body">
+
+							<div class="divider-container addBatch-container type02">
+								<!-- **** Section first **** -->
+								<div class="divider-block">
+									<div class="cust-m-info">Information for the template</div>
+
+									<div class="form-group cust-fld">
+											<label>Name</label>
+											<input type="text" class="form-control" />
+									</div>
+
+									<div class="form-group cust-fld">
+											<label>Fee Amount</label>
+											<input type="text" class="form-control" />
+									</div>
+
+									<div class="form-group cust-fld">
+											<label>Duration</label>
+											<!-- Date range Pick -->
+											<div class="c-dateRange">
+													<div class="dateContainer">
+														<input type="text" class="form-control" placeholder="Start Date">
+														<span>~</span>
+														<input type="text" class="form-control" placeholder="End Date">
+													</div>
+													<div class="dateIcon"></div>
+												</div>
+												<!-- Date range Pick End -->
+									</div>
+
+									<div class="form-group cust-fld">
+										<label>Installment Type</label>
+										<div class="dropdown">
+											<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Dropdown
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dLabel">
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="totalNumber">Total Invoices : 6</div>
+
+								</div>
+								<!-- **** Section first End **** -->
+
+								<!-- **** Section Second **** -->
+								<div class="divider-block">
+									<div class="cust-m-info">Preview the invoice amount & date of issue.</div>
+									<div class="c-batchSelect">
+
+										<div class="form-group cust-fld fldLine">
+											<label>Advance (First Installment)</label>
+											<div class="row">
+												<div class="col-md-2"><span class="labelNumber margin10-top">1.</span></div>
+												<div class="col-md-4 nopad">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control" />
+														</div>
+												</div>
+												<div class="col-md-6">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control fld--date" />
+														</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="form-group cust-fld fldLine">
+											<label>Next Installments</label>
+
+											<div class="row">
+												<div class="col-md-2"><span class="labelNumber margin10-top">2.</span></div>
+												<div class="col-md-4 nopad">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control" />
+														</div>
+												</div>
+												<div class="col-md-6">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control fld--date" />
+														</div>
+												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-md-2"><span class="labelNumber margin10-top">3.</span></div>
+												<div class="col-md-4 nopad">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control" />
+														</div>
+												</div>
+												<div class="col-md-6">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control fld--date" />
+														</div>
+												</div>
+											</div>
+
+										</div>
+
+
+									</div>
+								</div>
+								<!-- **** Section Second End **** -->
+
+								<!-- **** Section Second **** -->
+								<div class="divider-block">
+										<div class="cust-m-info">Enter invoice breakdown. (Optional)</div>
+										<div class="c-btnContainer margin25-bottom">
+											<button class="c-btn-bordered lg">Enter Breakdown</button>
+										</div>
+										<div class="cust-m-info">This will be displayed on the invoice. If you don’t enter any breakdown, default ‘Fees’ will be shown on the invoice.</div>
+
+										<div class="form-group cust-fld fldLine">
+
+											<!-- **** Form Row **** -->
+											<div class="row">
+												<div class="col-md-2"><span class="labelNumber margin10-top">1.</span></div>
+												<div class="col-md-5 nopad">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control pad5" />
+														</div>
+												</div>
+												<div class="col-md-3 pad5-ltrt">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control pad5" />
+														</div>
+												</div>
+												<div class="col-md-2 pad0-left">
+													<button class="c-actionBtn margin10-top"><i class="icon cg-android-close"></i></button>
+												</div>
+											</div>
+											<!-- **** Form Row End **** -->
+
+											<!-- **** Form Row **** -->
+											<div class="row">
+												<div class="col-md-2"><span class="labelNumber margin10-top">2.</span></div>
+												<div class="col-md-5 nopad">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control pad5" />
+														</div>
+												</div>
+												<div class="col-md-3 pad5-ltrt">
+														<div class="form-group cust-fld">
+																<input type="text" class="form-control pad5" />
+														</div>
+												</div>
+												<div class="col-md-2 pad0-left">
+													<button class="c-actionBtn margin10-top"><i class="icon cg-android-close"></i></button>
+												</div>
+											</div>
+											<!-- **** Form Row End **** -->
+
+											<div class="c-btnContainer margin25-bottom">
+												<button class="c-btn-bordered">Add denomination</button>
+											</div>
+
+										</div>
+
+								</div>
+								<!-- **** Section Second End **** -->
+
+							</div>
+
+						</div>
+						<div class="modal-footer">
+							<div class="clearfix text--right">
+								<button class="c-btn grayshade" data-dismiss="modal">Cancel</button>
+								<button class="c-btn primary">Save Template</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ****** Another batch modal End ****** -->
+
+		<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="../js/datatables.min.js"></script>
+		<script type="text/javascript" src="../js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Student : Quiz</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="css/css-styles.css" />
+  </head>
+  <body>
+    <!-- ****** header ****** -->
+    <div class="c-header">
+      <div class="c-left-sect">
+        <a href="javascript:void(0);"
+          ><img src="./images/logo.jpg" alt="logo"
+        /></a>
+      </div>
+
+      <div class="c-left-sect c-searchBar">
+        <div class="search__fld">
+          <input type="text" class="txt-srch" placeholder="Search" />
+        </div>
+      </div>
+
+      <div class="c-right-sect">
+        <ul>
+          <li>
+            <div class="clearfix user--prof dropdown">
+              <div class="user--img">
+                <img src="images/avatars/Avatar_12.jpg" alt="" />
+              </div>
+              <button
+                class="user--options"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Username
+                <i class="icon"></i>
+              </button>
+              <ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+                <li><a href="javascript:void(0);">Option 1</a></li>
+                <li><a href="javascript:void(0);">Option 1</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="javascript:void(0);">Sign out</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <button class="user-notify"><i class="icon cg-ring"></i></button>
+          </li>
+
+          <li>
+            <button class="user-notify">
+              <i class="icon cg-controls"></i>
+            </button>
+          </li>
+
+          <li>
+            <button class="user-custBtn">New Enquiry</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ****** header End ****** -->
+
+    <!-- ****** body ****** -->
+    <div class="c-body">
+      <!-- ****** Sidebar ****** -->
+      <div class="c-sidebar">
+        <!-- ** Sidebar DD ** -->
+        <div class="sidebar__dd dropdown">
+          <button
+            type="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Branch : pune
+            <i class="icon cg-angle-down"></i>
+          </button>
+          <ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+            <li><a href="javascript:void(0);">Option 1</a></li>
+            <li><a href="javascript:void(0);">Option 1</a></li>
+            <li><a href="javascript:void(0);">Option 1</a></li>
+          </ul>
+        </div>
+        <!-- ** Sidebar DD End ** -->
+
+        <!-- ** Sidebar Accord ** -->
+        <div class="menu--accord st-opened">
+          <div class="panel-group" id="Professor" role="tablist">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab">
+                <a
+                  role="button"
+                  class="panel-title"
+                  data-toggle="collapse"
+                  data-parent="#Professor"
+                  href="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Professor <i class="icon cg-angle-down"></i>
+                </a>
+              </div>
+              <div
+                id="collapseOne"
+                class="panel-collapse collapse in"
+                role="tabpanel"
+              >
+                <div class="panel-body">
+                  <ul class="sidebar--submenus">
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-dashboard-active"></i>Dashboard
+                        <span class="c-count">5</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-homework-active"></i>Homework
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-quiz-active"></i>Quiz
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-notes-active"></i>Notes
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-classmanager-active"></i
+                        >Timetable
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ** Sidebar Accord End ** -->
+
+        <!-- ** Sidebar Accord ** -->
+        <div class="menu--accord">
+          <div class="panel-group" id="Administrator" role="tablist">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab">
+                <a
+                  role="button"
+                  class="panel-title"
+                  data-toggle="collapse"
+                  data-parent="#Administrator"
+                  href="#menuAdministrator"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Administrator <i class="icon cg-angle-down"></i>
+                </a>
+              </div>
+              <div
+                id="menuAdministrator"
+                class="panel-collapse collapse"
+                role="tabpanel"
+              >
+                <div class="panel-body">
+                  <ul class="sidebar--submenus">
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-adminboard-active"></i>Admin
+                        Board
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-classmanager-active"></i>Class
+                        Manager
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-facultymanager-active"></i
+                        >Faculty Manager
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-studentdirectory-active"></i
+                        >Student Directory
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-finance-active"></i>Finance
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-enquiry-active"></i>Enquiry
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);" class="submenu--item">
+                        <i class="icon cg-icon-archives-active"></i>Archives
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ** Sidebar Accord End ** -->
+      </div>
+      <!-- ****** Sidebar End ****** -->
+
+      <!-- ****** Container ****** -->
+      <div class="c-container clearfix">
+        <div class="clearfix">
+          <div class="divider-container">
+            <div class="divider-block text--left">
+              <div class="c-brdcrum">
+                <a href="javascript:void(0)">Back to Dashboard</a>
+              </div>
+              <span class="c-heading-lg">Periodic Table</span>
+            </div>
+            <div class="divider-block text--right">
+              <button
+                class="c-btn prime"
+                data-toggle="modal"
+                data-target="#quizSubmit"
+              >
+                Finish
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="c-container__data st--blank">
+          <!-- ** Card Container ** -->
+          <div class="clearfix row">
+            <!-- **** Block 1 **** -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="c-marks-block type-02 margin25-bottom">
+                <div class="cust-m-info">Time Remaining</div>
+                <span class="marks-detl">00:59:33</span>
+              </div>
+
+              <div class="clearfix margin25-bottom">
+                <div class="block-title st-colored noborder">Questions</div>
+
+                <div class="c-quesListingColor clearfix">
+                  <ul>
+                    <li><button class="c-colorBtn st-review">1</button></li>
+                    <li><button class="c-colorBtn st-ans">2</button></li>
+                    <li><button class="c-colorBtn st-notAns">3</button></li>
+                    <li><button class="c-colorBtn st-review">4</button></li>
+                    <li><button class="c-colorBtn st-notAns">5</button></li>
+                    <li><button class="c-colorBtn st-current">6</button></li>
+                    <li><button class="c-colorBtn st-notAttempt">7</button></li>
+                    <li><button class="c-colorBtn st-notAttempt">8</button></li>
+                    <li><button class="c-colorBtn st-notAttempt">9</button></li>
+                    <li>
+                      <button class="c-colorBtn st-notAttempt">10</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="clearfix margin25-bottom">
+                <div class="c-quesListingColor type-02 clearfix">
+                  <ul>
+                    <li>
+                      <button class="c-colorBtn st-current"></button>
+                      <span class="queStatus">Current Question</span>
+										</li>
+                    <li>
+												<button class="c-colorBtn st-notAttempt"></button>
+												<span class="queStatus">Not Attempted</span>
+												<span class="queStatus_count">4</span>
+										</li>
+                    <li>
+                      <button class="c-colorBtn st-ans"></button>
+                      <span class="queStatus">Answered</span>
+                      <span class="queStatus_count">1</span>
+                    </li>
+                    <li>
+											<button class="c-colorBtn st-notAns"></button>
+											<span class="queStatus">Not Answered</span>
+											<span class="queStatus_count">2</span>
+										</li>
+                    <li>
+											<button class="c-colorBtn st-review"></button>
+											<span class="queStatus">Marked for Review</span>
+											<span class="queStatus_count">2</span>
+										</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- **** Block 1 End **** -->
+
+            <!-- **** Block 2 **** -->
+            <div class="col-md-9 col-sm-6 col-xs-12">
+              <div class="block-title st-colored block-title-lg noborder">
+                QUESTION 4 / 10
+                <span class="st-queStatus">Marked For Review</span>
+              </div>
+
+
+                <!-- ** Question Listing ** -->
+                <div class="clearfix">
+                  <!-- ** Question Element ** -->
+                  <div class="c-queList__sect nopad">
+                    <div class="queList__header">
+                      <span class="static-ques">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat.
+                      </span>
+                    </div>
+                    <div class="queList__body">
+                      <label
+                        for="queList-1"
+                        class="custome-field field-radiobtn lg"
+                      >
+                        <input
+                          type="radio"
+                          name="queList"
+                          id="queList-1"
+                          value="checkone"
+                        />
+                        <i></i>
+                        <span
+                          >Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit,</span
+                        >
+                      </label>
+
+                      <label
+                        for="queList-2"
+                        class="custome-field field-radiobtn lg"
+                      >
+                        <input
+                          type="radio"
+                          name="queList"
+                          id="queList-2"
+                          value="checkone"
+                        />
+                        <i></i>
+                        <span
+                          >Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit,</span
+                        >
+                      </label>
+
+                      <label
+                        for="queList-3"
+                        class="custome-field field-radiobtn lg"
+                      >
+                        <input
+                          type="radio"
+                          name="queList"
+                          id="queList-3"
+                          value="checkone"
+                        />
+                        <i></i>
+                        <span
+                          >Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit,</span
+                        >
+                      </label>
+
+                      <label
+                        for="queList-4"
+                        class="custome-field field-radiobtn lg"
+                      >
+                        <input
+                          type="radio"
+                          name="queList"
+                          id="queList-4"
+                          value="checkone"
+                        />
+                        <i></i>
+                        <span
+                          >Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit,</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+									<!-- ** Question Element End ** -->
+									<div class="btnContainer text-right">
+										<button class="c-btn st-notAttempt">Previous</button>
+										<button class="c-btn st-notAns">Clear Answer</button>
+										<button class="c-btn st-review">Mark for Review</button>
+										<button class="c-btn st-ans">Save & Next</button>
+										<button class="c-btn st-notAttempt">Next</button>
+									</div>
+
+                </div>
+                <!-- ** Question Listing End ** -->
+
+            </div>
+            <!-- ** Block 2 End ** -->
+          </div>
+          <!-- ** Card Container End ** -->
+        </div>
+      </div>
+      <!-- ****** Container End ****** -->
+    </div>
+    <!-- ****** body End ****** -->
+
+    <!-- ****** Submit Quiz modal ****** -->
+    <div
+      class="modal fade custom-modal-sm width--sm"
+      id="quizSubmit"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="icon cg-times"></i>
+            </button>
+            <h4 class="c-heading-sm card--title">Submit Quiz</h4>
+          </div>
+          <div class="modal-body">
+            <div class="cust-m-info">
+              Do you really want. to submit the quiz?
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="clearfix text--right">
+              <button class="c-btn grayshade" data-dismiss="modal">No</button>
+              <button class="c-btn primary">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ****** Submit Quiz modal End ****** -->
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/bootstrap-datepicker.min.js"
+    ></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

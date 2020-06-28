@@ -1,0 +1,476 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Student : Timetable</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./images/logo.jpg"  alt="logo" /></a>
+			</div>
+			
+			<div class="c-left-sect c-searchBar">
+				<div class="search__fld">
+					<input type="text" class="txt-srch" placeholder="Search" />
+				</div>
+			</div>
+			
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"><img src="images/avatars/Avatar_12.jpg" alt="" /></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<div class="dropdown-menu cust--dd userprof--dd" aria-labelledby="dLabel">
+								<div class="userprof--dd_header">
+									<div class="user_img"><img src="images/avatars/Avatar_12.jpg" alt="" /></div>
+									<span class="user_name">Username</span>
+									<button class="btnuser_prof">View Profile</button>
+								</div>
+								<ul>
+									<li><a href="javascript:void(0);">Change Password</a></li>
+									<li><a href="javascript:void(0);">Privacy & Safery</a></li>
+									<li><a href="javascript:void(0);">Email Notifications</a></li>
+									<li><a href="javascript:void(0);">Help Center</a></li>
+									<li><a href="javascript:void(0);">Report a problem</a></li>
+									<li><a href="javascript:void(0);">Terms of use</a></li>
+									<li><a href="javascript:void(0);">Privacy Policy</a></li>
+									<li><a href="javascript:void(0);">Log Out</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					
+					<li class="dropdown">
+						<button class="user-notify" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon cg-ring"></i></button>
+							<div class="dropdown-menu cust--dd notifications--dd" aria-labelledby="dLabel">
+								<div class="notify--dd_header">
+									<span>Notifications (12)</span>
+								</div>
+								<div class="clearfix notify-scroll">
+									<ul class="notify--opts">
+										<li class="notify-type t-homework">
+											<a href="javascript:void(0);">
+												<div class="notifi-img"></div>
+												<h5 class="notify-info">Lorem Ipsum is simply dummy text of <strong>the printing</strong> and typesetting industry.</h5>
+												<span class="notify-time">2 Hours ago</span>
+											</a>
+										</li>
+										<li class="notify-type t-notes">
+											<a href="javascript:void(0);">
+												<div class="notifi-img"></div>
+												<h5 class="notify-info">Lorem Ipsum is simply dummy text of <strong>the printing</strong> and typesetting industry.</h5>
+												<span class="notify-time">2 Hours ago</span>
+											</a>
+										</li>
+										<li class="notify-type t-quiz">
+											<a href="javascript:void(0);">
+												<div class="notifi-img"></div>
+												<h5 class="notify-info">Lorem Ipsum is simply dummy text of <strong>the printing</strong> and typesetting industry.</h5>
+												<span class="notify-time">2 Hours ago</span>
+											</a>
+										</li>
+										<li class="notify-type t-quiz">
+											<a href="javascript:void(0);">
+												<div class="notifi-img"></div>
+												<h5 class="notify-info">Lorem Ipsum is simply dummy text of <strong>the printing</strong> and typesetting industry.</h5>
+												<span class="notify-time">2 Hours ago</span>
+											</a>
+										</li>
+										<li class="notify-type t-quiz">
+											<a href="javascript:void(0);">
+												<div class="notifi-img"></div>
+												<h5 class="notify-info">Lorem Ipsum is simply dummy text of <strong>the printing</strong> and typesetting industry.</h5>
+												<span class="notify-time">2 Hours ago</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+					</li>
+					
+					<li class="dropdown">
+						<button class="user-notify" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon cg-controls"></i></button>
+						<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+							<li><a href="javascript:void(0);">Option 1</a></li>
+							<li><a href="javascript:void(0);">Option 1</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="javascript:void(0);">Option 1</a></li>
+						</ul>
+					</li>
+					
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+					
+				</ul>
+			</div>
+			
+		</div>
+		<!-- ****** header End ****** -->
+		
+		<!-- ****** body ****** -->
+		<div class="c-body">
+			
+			
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+				
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+			</div>
+			<!-- ****** Sidebar End ****** -->
+			
+			
+			<!-- ****** Container ****** -->
+			<div class="c-container clearfix">
+				
+				<div class="clearfix">
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<span class="c-heading-lg">Timetable</span>
+						</div>
+						<div class="divider-block text--right">
+							<button class="c-btn prime"  data-toggle="modal" data-target="#createNotice">Add New Notice</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="c-container__data st--blank">
+					
+					<!-- ** Card Container ** -->
+					<div class="clearfix row">
+						
+						<!-- **** Block 1 **** -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+						
+							<div class="c-inline-calender"></div>
+						
+							<div class="block-title st-colored noborder">Notice</div>
+							
+							<div class="clearfix margin25-bottom">
+								<!-- ** c-studcard-02 ** -->
+								<div class="c-studcard-02">
+									<div class="title__1">Come to class with a set of binoculars tomorrow!</div>
+									<div class="clearfix">
+										<div class="c-inner-bcrm dot pull-left">
+											<span>Physics</span>
+											<span>5 hours ago</span>
+										</div>
+										<div class="pull-right">
+											<div class="prof__pic" data-toggle="tooltip" data-placement="left" title="Prof. Name"><img src="images/avatars/Avatar_10.jpg" /></div>
+										</div>
+									</div>
+								</div>
+								<!-- ** c-studcard-02 End ** -->
+								
+								<!-- ** c-studcard-02 ** -->
+								<div class="c-studcard-02">
+									<div class="title__1"> class with a set of binoculars tomorrow!</div>
+									<div class="clearfix">
+										<div class="c-inner-bcrm dot pull-left">
+											<span>Physics</span>
+											<span>5 hours ago</span>
+										</div>
+										<div class="pull-right">
+											<div class="prof__pic" data-toggle="tooltip" data-placement="left" title="Prof. Name"><img src="images/avatars/Avatar_10.jpg" /></div>
+										</div>
+									</div>
+								</div>
+								<!-- ** c-studcard-02 End ** -->
+								
+							</div>
+						</div>
+						<!-- **** Block 1 End **** -->
+						
+						<!-- **** Block 2 **** -->
+						<div class="col-md-9 col-sm-6 col-xs-12">
+							<div class="block-title st-colored noborder">Calender</div>
+							
+						</div>
+						<!-- ** Block 2 End ** -->
+
+					</div>
+					<!-- ** Card Container End ** -->
+				
+				</div>
+
+				<!-- ****** Comment Section ****** -->
+				<div class="clearfix c-blogComments">
+					<div class="block-title st-colored noborder">DISCUSSION (32)</div>
+
+					<div class="commentField">
+						<textarea placeholder="Write comment here."></textarea>
+						<div class="clearfix">
+							<button class="c-btn prime">Comment</button>
+						</div>
+					</div>
+
+					<!-- ****** Main Comment Section ****** -->
+					<div class="sub_commentField main_commentField">
+
+						<div class="clearfix">
+							<div class="sub_commentField__profimg">
+								<img src="images/avatars/Avatar_15.jpg" alt="" />
+							</div>
+
+							<div class="sub_commentField__title  clearfix">
+								<h4 class="Field__name">Samantha Perry</h4>
+								<span class="Field__time">2 hours ago</span>
+							</div>
+
+							<div class="sub_commentField__desc">Guys, anyone knows how to solve problem 7?  I can’t solve it after step 4.</div>
+
+							<div class="sub_commentField__votes clearfix">
+								<ul>
+									<li>
+										<button class="likeBtn st-active">
+											<i class="icon cg-arrow-up"></i> 
+											Upvote <span>23</span>
+										</button>
+									</li>
+									<li>
+										<button class="likeBtn">
+											<i class="icon cg-arrow-down"></i> 
+											Downvote <span>23</span>
+										</button>
+									</li>
+									<li>
+										<button class="replyBtn">Reply</button>
+									</li>
+								</ul>
+							</div>
+
+							<div class="sub_commentField__replyfld clearfix">
+								<textarea placeholder="Write comment here."></textarea>
+								<button class="subReplyBtn">Reply</button>
+							</div>
+						</div>
+
+							<!-- ****** Sub Comment Section ****** -->
+							<div class="sub_commentField">
+
+							<div class="clearfix">
+								<div class="sub_commentField__profimg">
+									<img src="images/avatars/Avatar_12.jpg" alt="" />
+								</div>
+
+								<div class="sub_commentField__title  clearfix">
+									<h4 class="Field__name">Samantha Perry</h4>
+									<span class="Field__time">2 hours ago</span>
+								</div>
+
+								<div class="sub_commentField__desc">Guys, anyone knows how to solve problem 7?  I can’t solve it after step 4.</div>
+
+								<div class="sub_commentField__votes clearfix">
+									<ul>
+										<li>
+											<button class="likeBtn st-active">
+												<i class="icon cg-arrow-up"></i> 
+												Upvote <span>23</span>
+											</button>
+										</li>
+										<li>
+											<button class="likeBtn">
+												<i class="icon cg-arrow-down"></i> 
+												Downvote <span>23</span>
+											</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+						<!-- ****** Sub Comment Section End ****** -->
+
+
+					</div>
+					<!-- ****** Main Comment Section End ****** -->
+					
+				</div>
+				<!-- ****** Comment Section End ****** -->
+
+			</div>
+			<!-- ****** Container End ****** -->
+			
+
+
+			
+		</div>
+		<!-- ****** body End ****** -->
+		
+		
+		<!-- ****** New notice modal ****** -->
+		<div class="modal fade custom-modal-sm" id="createNotice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon cg-times"></i></button>
+						<h4 class="c-heading-sm card--title">New Notice</h4>
+					</div>
+					<div class="modal-body">
+						<div class="cust-m-info">Enter date for notice and write your notice.</div>
+						<div class="form-group cust-fld">
+							<label>Date</label>
+							<input type="text" class="form-control fld--date" placeholder="Date">
+						</div>
+						<div class="form-group static-fld">
+							<label>Batch</label>
+							<div class="dropdown-custome">
+								<select>
+									<option>Batch Name</option>
+									<option>Opt 2</option>
+									<option>Opt 3</option>
+									<option>Opt 4</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group cust-fld">
+							<label>Notice</label>
+							<textarea class="form-control" placeholder="Notice"></textarea>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="clearfix text--right">
+							<button class="c-btn grayshade" data-dismiss="modal">Cancel</button>
+							<button class="c-btn primary">Create Notice</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- ****** New notice modal End ****** -->
+		
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

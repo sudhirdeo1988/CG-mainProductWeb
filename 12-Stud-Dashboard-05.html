@@ -1,0 +1,332 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Student :: Dashboard</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./images/logo.jpg"  alt="logo" /></a>
+			</div>
+			
+			<div class="c-left-sect c-searchBar">
+				<div class="search__fld">
+					<input type="text" class="txt-srch" placeholder="Search" />
+				</div>
+			</div>
+			
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"><img src="images/avatars/Avatar_12.jpg" alt="" /></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="javascript:void(0);">Sign out</a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-ring"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-controls"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+					
+				</ul>
+			</div>
+			
+		</div>
+		<!-- ****** header End ****** -->
+		
+		<!-- ****** body ****** -->
+		<div class="c-body">
+			
+			
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+				
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+			</div>
+			<!-- ****** Sidebar End ****** -->
+			
+			
+			<!-- ****** Container ****** -->
+			<div class="c-container clearfix">
+				
+				<div class="clearfix">
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<div class="c-brdcrum">
+								<a href="javascript:void(0)">Back to All Homeworks</a>
+							</div>
+							<span class="c-heading-lg">Periodic Table</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="c-container__data st--blank">
+					
+					<!-- ** Card Container ** -->
+					<div class="clearfix row">
+						
+						<!-- **** Block 1 **** -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="block-title st-colored noborder">GENERAL DETAILS</div>
+							
+							<div class="clearfix margin25-bottom">
+								<div class="form-group static-fld">
+									<label>Topic</label>
+									<span class="info-type">Study of Elements</span>
+								</div>
+								<div class="form-group static-fld">
+									<label>Subject</label>
+									<span class="info-type">Chemistry</span>
+								</div>
+								<div class="form-group static-fld">
+									<label>Folder</label>
+									<span class="info-type">Chem - Unit 2</span>
+								</div>
+								<div class="form-group static-fld">
+									<label>Batch</label>
+									<span class="info-type">Saturday Batch</span>
+								</div>
+								<div class="form-group static-fld">
+									<label>Class</label>
+									<span class="info-type">12th Standard</span>
+								</div>
+								<div class="form-group static-fld">
+									<label>Date Assigned</label>
+									<span class="info-type">1 Jan 2019 1:00 PM</span>
+								</div>
+								<div class="form-group static-fld">
+									<label>Due Date</label>
+									<span class="info-type">12 Jan 2019 12:00 PM</span>
+								</div>
+							</div>
+						</div>
+						<!-- **** Block 1 End **** -->
+						
+						<!-- **** Block 2 **** -->
+						<div class="col-md-9 col-sm-6 col-xs-12">
+							
+							<!-- ** Uploaded Homework files Bolck ** -->
+							<div class="clearfix c-homework-files">
+								<div class="block-title st-colored noborder">HOMEWORK FILES</div>
+								
+								<!-- ** Homework PDF files ** -->
+								<div class="hf__uploaded clearfix">
+									
+									<!-- ** Homework PDF ** -->
+									<div class="hf__pdf">
+										<div class="hf__pdf__header"></div>
+										<div class="hf__pdf__name">
+											<i class="icon cg-pdf"></i>Homework_File1.pdf
+										</div>
+									</div>
+									<!-- ** Homework PDF End ** -->
+									
+									<!-- ** Homework PDF ** -->
+									<div class="hf__pdf">
+										<div class="hf__pdf__header"></div>
+										<div class="hf__pdf__name">
+											<i class="icon cg-pdf"></i>Homework_File1.pdf
+										</div>
+									</div>
+									<!-- ** Homework PDF End ** -->
+									
+								</div>
+								<!-- ** Homework PDF files End ** -->
+								
+							</div>
+							<!-- ** Uploaded Homework files Bolck End ** -->
+							
+							<!-- ** Uploaded Homework Upload ** -->
+							<div class="clearfix c-homework-filesUpload">
+								<div class="block-title st-colored noborder">SUBMIT HOMEWORK</div>
+								<div class="c-file-uploader">
+									
+									<!-- ** Loading Homework Upload ** -->
+									<div class="file_upload_modal st-uploading">
+										<div class="upload_modal_icon"><i class="icon cg-pdf"></i></div>
+										<div class="upload_modal_txt">Homework_File2.pdf</div>
+										<div class="upload_modal_loading">
+										
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+												</div>
+											</div>
+										
+										</div>
+										<div class="upload_modal_del"><button><i class="icon cg-times"></i></button></div>
+									</div>
+									<!-- ** Loading Homework Upload End ** -->
+									
+								</div>
+							</div>
+							<!-- ** Uploaded Homework Upload End ** -->
+							
+							<!-- ** DISCUSSION Section ** -->
+							<div class="clearfix">
+								<div class="block-title st-colored noborder">DISCUSSION (32)</div>
+								<div class="clearfix c-homework-discussion">Discussion Plugin here</div>
+							</div>
+							<!-- ** DISCUSSION Section End ** -->
+							
+						</div>
+						<!-- ** Block 2 End ** -->
+						
+
+
+					</div>
+					<!-- ** Card Container End ** -->
+				
+				</div>
+			</div>
+			<!-- ****** Container End ****** -->
+			
+			
+		</div>
+		<!-- ****** body End ****** -->
+		
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

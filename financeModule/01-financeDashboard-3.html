@@ -1,0 +1,692 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Finances Dashboard</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="../images/fav.png">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="../css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./../images/logo.jpg"  alt="logo" /></a>
+			</div>
+
+			<div class="c-left-sect c-searchBar">
+				<div class="search__fld">
+					<input type="text" class="txt-srch" placeholder="Search" />
+				</div>
+			</div>
+
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="javascript:void(0);">Sign out</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li>
+						<button class="user-notify"><i class="icon cg-ring"></i></button>
+					</li>
+
+					<li>
+						<button class="user-notify"><i class="icon cg-controls"></i></button>
+					</li>
+
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+		<!-- ****** header End ****** -->
+
+		<!-- ****** body ****** -->
+		<div class="c-body">
+
+
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+
+			</div>
+			<!-- ****** Sidebar End ****** -->
+
+
+			<!-- ****** Container ****** -->
+			<div class="c-container dark clearfix">
+
+				<div class="clearfix">
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<span class="c-heading-lg margin10-bottom">Abbie Luna’s Financial Details</span>
+						</div>
+						<div class="divider-block text--right">
+							<button class="c-btn">Send Invoice</button>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="clearfix">
+					<div class="row">
+
+						<!-- ****** Section 1 ****** -->
+						<div class="col-md-3">
+
+							<!-- ****** Name Card ****** -->
+							<div class="c-repoCard">
+								<div class="divider-container stud-nameCard">
+									<div class="divider-block nameCard__pic">
+										<img src="../images/avatars/Avatar_1.jpg" alt="" />
+									</div>
+									<div class="divider-block nameCard__info">
+										<span class="studName">Abbie Luna</span>
+										<button class="link--btn">View Profile</button>
+									</div>
+								</div>
+							</div>
+							<!-- ****** Name Card End ****** -->
+
+							<!-- ****** Dropdown ****** -->
+							<div class="c-repoCard">
+								<div class="block-title st-colored noborder nomargin color-dark">VIEW REPORTS OF</div>
+								<div class="c-repoDropdown dropdown">
+										<button id="dLabel" type="button" data-toggle="dropdown" class="dropdown_btn">
+											First Year Engineering
+											<i class="icon cg-angle-down"></i>
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dLabel">
+											<li><a class="listItem">List Item</a></li>
+											<li><a class="listItem">List Item</a></li>
+											<li><a class="listItem">List Item</a></li>
+										</ul>
+									</div>
+							</div>
+							<!-- ****** Dropdown End ****** -->
+
+							<div class="clearfix">
+									<!-- ***** Accordian ***** -->
+									<div class="panel-group c-panelAccord type-1" id="record1" role="tablist" aria-multiselectable="true">
+
+											<!-- ***** Accordian Panel ***** -->
+											<div class="panel panel-default margin15-bottom">
+												<div class="panel-heading" role="tab" id="headingThree">
+														<a class="panel-title clearfix" class="collapsed" role="button" data-toggle="collapse" data-parent="#record1" href="#collapseRecord1" aria-expanded="false" aria-controls="collapseThree">
+															<span class="mainTitle noCheck st-active">11TH STANDARD</span>
+														</a>
+												</div>
+												<div id="collapseRecord1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+													<div class="panel-body">
+
+															<div class="form-group static-fld">
+																<label>Total Fees</label>
+																<span class="info-type">₹ 60,000 /-</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>Fee Template</label>
+																<span class="info-type">11th Standard</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>Duration</label>
+																<span class="info-type">1 Jan 2019 - 31 June 2019</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>Installment Type</label>
+																<span class="info-type">Monthly</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>No. of Installments</label>
+																<span class="info-type">6</span>
+															</div>
+
+													</div>
+												</div>
+											</div>
+											<!-- ***** Accordian Panel End ***** -->
+
+											<!-- ***** Accordian Panel ***** -->
+											<div class="panel panel-default">
+												<div class="panel-heading" role="tab" id="headingThree">
+														<a class="panel-title clearfix" class="collapsed" role="button" data-toggle="collapse" data-parent="#record1" href="#collapseRecord2" aria-expanded="false" aria-controls="collapseThree">
+															<span class="mainTitle noCheck st-active">12TH STANDARD</span>
+														</a>
+												</div>
+												<div id="collapseRecord2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+													<div class="panel-body">
+
+															<div class="form-group static-fld">
+																<label>Total Fees</label>
+																<span class="info-type">₹ 60,000 /-</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>Fee Template</label>
+																<span class="info-type">11th Standard</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>Duration</label>
+																<span class="info-type">1 Jan 2019 - 31 June 2019</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>Installment Type</label>
+																<span class="info-type">Monthly</span>
+															</div>
+
+															<div class="form-group static-fld">
+																<label>No. of Installments</label>
+																<span class="info-type">6</span>
+															</div>
+
+													</div>
+												</div>
+											</div>
+											<!-- ***** Accordian Panel End ***** -->
+
+										</div>
+									<!-- ***** Accordian End ***** -->
+							</div>
+
+						</div>
+						<!-- ****** Section 1 End ****** -->
+
+						<!-- ****** Section 2 ****** -->
+						<div class="col-md-9">
+
+							<div class="c-repoCard">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="block-title st-colored noborder nomargin color-dark">Fee Status</div>
+										<div class="divider-container nomargin">
+											<div class="divider-block text--left">graph</div>
+											<div class="divider-block text--left">
+													<div class="block-title st-colored noborder nomargin color-dark">Total: Rs. 50,000/-</div>
+													<div class="colCode">
+															<ul>
+																<li class="col-green">
+																	<div class="color"></div>
+																	<span>Paid: Rs. 15,000/-</span>
+																</li>
+																<li class="col-yellow">
+																	<div class="color"></div>
+																	<span>Pending: Rs. 10,000/-</span>
+																</li>
+																<li class="col-gray">
+																	<div class="color"></div>
+																	<span>Upcoming: Rs. 25,000/-</span>
+																</li>
+															</ul>
+													</div>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-6">
+											<div class="block-title st-colored noborder nomargin color-dark">Actions</div>
+											<div class="block-title-sm noborder">
+												<span class="text-colored">3 Pending Invoices</span>
+												since 20 June 2019
+											</div>
+											<div class="divider-container nomargin">
+													<div class="divider-block text--left">
+														<button class="c-btn-large primary"  data-toggle="modal" data-target="#acceptpayment">Accept Payment</button>
+													</div>
+											</div>
+											<div class="divider-container margin0-bottom">
+													<div class="divider-block text--left">
+														<button class="c-btn-large">Send Payment Reminders</button>
+													</div>
+													<div class="divider-block text--left">
+															<button class="c-btn-large">Create New Invoice</button>
+														</div>
+											</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="clearfix">
+									<!-- ***** Accordian ***** -->
+									<div class="panel-group c-panelAccord type-1" id="record3" role="tablist" aria-multiselectable="true">
+
+										<!-- ***** Accordian Panel ***** -->
+										<div class="panel panel-default margin15-bottom">
+											<div class="panel-heading" role="tab" id="headingThree">
+													<a class="panel-title clearfix" class="collapsed" role="button" data-toggle="collapse" data-parent="#record3" href="#collapseRecord3" aria-expanded="false" aria-controls="collapseThree">
+														<span class="mainTitle noCheck st-active">PENDING INVOICES</span>
+													</a>
+											</div>
+											<div id="collapseRecord3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+												<div class="panel-body nopad">
+
+														<!-- ** Card ** -->
+														<div class="c-table">
+																<table class="table data--table">
+																		<thead>
+																				<tr>
+																						<th style="width:10%">Inv. No</th>
+																						<th style="width:25%">Invoice Name</th>
+																						<th style="width:15%">Amount</th>
+																						<th style="width:15%">Issued On</th>
+																						<th style="width:15%">Status</th>
+																						<th style="width:20%" class="nosort">Action</th>
+																				</tr>
+																		</thead>
+																		<tbody>
+																				<tr>
+																						<td><span class="c-name">4659</span></td>
+																						<td>From 11th Standard Fee template</td>
+																						<td>20,000 /-</td>
+																						<td>1 July 2019</td>
+																						<td><span class="statusTag">Pending</span></td>
+																						<td>
+																							<button class="link--btn"><i class="icon cg-file-text"></i></button>
+																							<button class="link--btn" title="Send Reminder" data-toggle="tooltip" data-placement="top" title="Tooltip on left"><i class="icon cg-alarm-clock"></i></button>
+																							<button class="c-btn sm margin0-bottom">Accept Payment</button>
+																						</td>
+																				</tr>
+																				<tr>
+																						<td><span class="c-name">4659</span></td>
+																						<td>From 11th Standard Fee template</td>
+																						<td>20,000 /-</td>
+																						<td>1 July 2019</td>
+																						<td><span class="statusTag colOrange">Partial</span></td>
+																						<td>
+																							<button class="link--btn"><i class="icon cg-file-text"></i></button>
+																							<button class="link--btn" title="Send Reminder" data-toggle="tooltip" data-placement="top" title="Tooltip on left"><i class="icon cg-alarm-clock"></i></button>
+																							<button class="c-btn sm margin0-bottom">Accept Payment</button>
+																						</td>
+																				</tr>
+																		</tbody>
+																</table>
+														</div>
+														<!-- ** Card ** -->
+												</div>
+											</div>
+										</div>
+										<!-- ***** Accordian Panel End ***** -->
+
+									</div>
+									<!-- ***** Accordian End ***** -->
+
+									<!-- ***** Accordian ***** -->
+									<div class="panel-group c-panelAccord type-1" id="record4" role="tablist" aria-multiselectable="true">
+
+											<!-- ***** Accordian Panel ***** -->
+											<div class="panel panel-default margin15-bottom">
+												<div class="panel-heading" role="tab" id="headingThree">
+														<a class="panel-title clearfix" class="collapsed" role="button" data-toggle="collapse" data-parent="#record4" href="#collapseRecord4" aria-expanded="false" aria-controls="collapseThree">
+															<span class="mainTitle noCheck st-active">PAID INVOICES</span>
+														</a>
+												</div>
+												<div id="collapseRecord4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+													<div class="panel-body nopad">
+
+															<!-- ** Card ** -->
+															<div class="c-table">
+																	<table class="table data--table">
+																			<thead>
+																					<tr>
+																							<th style="width:10%">Inv. No</th>
+																							<th style="width:25%">Invoice Name</th>
+																							<th style="width:15%">Amount</th>
+																							<th style="width:15%">Issued On</th>
+																							<th style="width:15%">Status</th>
+																							<th style="width:10%" class="nosort">Invoice</th>
+																							<th style="width:10%" class="nosort">Receipt</th>
+																					</tr>
+																			</thead>
+																			<tbody>
+																					<tr>
+																							<td><span class="c-name">4659</span></td>
+																							<td>From 11th Standard Fee template</td>
+																							<td>20,000 /-</td>
+																							<td>1 July 2019</td>
+																							<td><span class="statusTag colGreen">New</span></td>
+																							<td>
+																								<button class="link--btn"><i class="icon cg-file-text"></i></button>
+																							</td>
+																							<td>
+																								<button class="link--btn"><i class="icon cg-file-o"></i></button>
+																								<button class="link--btn"><i class="icon cg-file-o"></i></button>
+																							</td>
+																					</tr>
+																					<tr>
+																							<td><span class="c-name">4659</span></td>
+																							<td>From 11th Standard Fee template</td>
+																							<td>20,000 /-</td>
+																							<td>1 July 2019</td>
+																							<td><span class="statusTag colGreen">New</span></td>
+																							<td>
+																								<button class="link--btn"><i class="icon cg-file-text"></i></button>
+																							</td>
+																							<td>
+																								<button class="link--btn"><i class="icon cg-file-o"></i></button>
+																								<button class="link--btn"><i class="icon cg-file-o"></i></button>
+																							</td>
+																					</tr>
+																			</tbody>
+																	</table>
+															</div>
+															<!-- ** Card ** -->
+													</div>
+												</div>
+											</div>
+											<!-- ***** Accordian Panel End ***** -->
+
+									</div>
+									<!-- ***** Accordian End ***** -->
+
+									<!-- ***** Accordian ***** -->
+									<div class="panel-group c-panelAccord type-1" id="record5" role="tablist" aria-multiselectable="true">
+
+										<!-- ***** Accordian Panel ***** -->
+										<div class="panel panel-default margin15-bottom">
+											<div class="panel-heading" role="tab" id="headingThree">
+													<a class="panel-title clearfix" class="collapsed" role="button" data-toggle="collapse" data-parent="#record5" href="#collapseRecord5" aria-expanded="false" aria-controls="collapseThree">
+														<span class="mainTitle noCheck st-active">UPCOMING INVOICES</span>
+													</a>
+											</div>
+											<div id="collapseRecord5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+												<div class="panel-body nopad">
+
+														<!-- ** Card ** -->
+														<div class="c-table">
+																<table class="table data--table">
+																		<thead>
+																				<tr>
+																						<th style="width:10%">Inv. No</th>
+																						<th style="width:25%">Invoice Name</th>
+																						<th style="width:15%">Amount</th>
+																						<th style="width:15%">Date of Issued</th>
+																						<th style="width:10%" class="nosort">Action</th>
+																				</tr>
+																		</thead>
+																		<tbody>
+																				<tr>
+																						<td><span class="c-name">4659</span></td>
+																						<td>From 11th Standard Fee template</td>
+																						<td>20,000 /-</td>
+																						<td>1 July 2019</td>
+																						<td>
+																							<button class="link--btn">Edit</button>
+																						</td>
+																				</tr>
+																				<tr>
+																						<td><span class="c-name">4659</span></td>
+																						<td>From 11th Standard Fee template</td>
+																						<td>20,000 /-</td>
+																						<td>1 July 2019</td>
+																						<td>
+																							<button class="link--btn">Edit</button>
+																						</td>
+																				</tr>
+																		</tbody>
+																</table>
+														</div>
+														<!-- ** Card ** -->
+												</div>
+											</div>
+										</div>
+										<!-- ***** Accordian Panel End ***** -->
+
+								</div>
+								<!-- ***** Accordian End ***** -->
+
+							</div>
+
+						</div>
+						<!-- ****** Section 2 End ****** -->
+					</div>
+
+				</div>
+
+			</div>
+			<!-- ****** Container End ****** -->
+
+
+		</div>
+		<!-- ****** body End ****** -->
+
+
+		<!-- ****** Add Expences modal ****** -->
+		<div class="modal fade" id="acceptpayment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon cg-times"></i></button>
+							<h4 class="c-heading-sm card--title">Accept Payment</h4>
+						</div>
+						<div class="modal-body">
+							<span class="cust-m-info">Select & check invoice details.</span>
+							<div class="divider-container addBatch-container type02">
+
+								<!-- **** Section first **** -->
+								<div class="divider-block">
+
+									<div class="form-group cust-fld">
+											<label>Select Invoice</label>
+											<div class="dropdown">
+												<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Dropdown
+												</button>
+												<ul class="dropdown-menu" aria-labelledby="dLabel">
+													<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+													<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+													<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												</ul>
+											</div>
+									</div>
+
+									<div class="form-group static-fld">
+											<label>Invoice Name</label>
+											<span class="info-type">11th Standard - 2nd Installment</span>
+									</div>
+
+									<div class="form-group static-fld">
+											<label>Amount</label>
+											<span class="info-type">₹ 20,000 /-</span>
+									</div>
+
+									<div class="form-group static-fld">
+											<label>Issued On</label>
+											<span class="info-type">1 Jan 2019</span>
+									</div>
+
+									<button class="link--btn">View Invoice</button>
+								</div>
+								<!-- **** Section first End **** -->
+
+								<!-- **** Section Second **** -->
+								<div class="divider-block">
+										<div class="form-group cust-fld">
+												<label>Amount Paid</label>
+												<input type="text" class="form-control" placeholder="Amount" />
+										</div>
+
+										<div class="form-group cust-fld">
+											<label>Payment Method</label>
+											<div class="dropdown">
+												<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Dropdown
+												</button>
+												<ul class="dropdown-menu" aria-labelledby="dLabel">
+													<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+													<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+													<li><a href="javascript:void(0);" class="dd-option">Option 1</a></li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="form-group cust-fld">
+												<label>Payment Date</label>
+												<input type="text" class="form-control fld--date" placeholder="Amount" />
+										</div>
+
+										<div class="form-group cust-fld">
+												<label>Attachment(Optional)</label>
+												<input type="file" class="form-control" placeholder="file" />
+										</div>
+								</div>
+								<!-- **** Section Second End **** -->
+
+							</div>
+						</div>
+						<div class="modal-footer">
+							<div class="clearfix text--right">
+								<button class="c-btn grayshade" data-dismiss="modal">Cancel</button>
+								<button class="c-btn primary">Accept Payment</button>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		<!-- ****** Add Expences modal End ****** -->
+
+		<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="../js/datatables.min.js"></script>
+		<script type="text/javascript" src="../js/main.js"></script>
+    </body>
+</html>

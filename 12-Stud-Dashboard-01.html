@@ -1,0 +1,421 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Student :: Dashboard</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="css/css-styles.css">
+	</head>
+    <body>
+		<!-- ****** header ****** -->
+		<div class="c-header">
+			<div class="c-left-sect">
+				<a href="javascript:void(0);"><img src="./images/logo.jpg"  alt="logo" /></a>
+			</div>
+			
+			<div class="c-left-sect c-searchBar">
+				<div class="search__fld">
+					<input type="text" class="txt-srch" placeholder="Search" />
+				</div>
+			</div>
+			
+			<div class="c-right-sect">
+				<ul>
+					<li>
+						<div class="clearfix user--prof dropdown">
+							<div class="user--img"><img src="images/avatars/Avatar_12.jpg" alt="" /></div>
+							<button class="user--options" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Username
+								<i class="icon"></i>
+							</button>
+							<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li><a href="javascript:void(0);">Option 1</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="javascript:void(0);">Sign out</a></li>
+							</ul>
+						</div>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-ring"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-notify"><i class="icon cg-controls"></i></button>
+					</li>
+					
+					<li>
+						<button class="user-custBtn">New Enquiry</button>
+					</li>
+					
+				</ul>
+			</div>
+			
+		</div>
+		<!-- ****** header End ****** -->
+		
+		<!-- ****** body ****** -->
+		<div class="c-body">
+			
+			
+			<!-- ****** Sidebar ****** -->
+			<div class="c-sidebar">
+				
+				<!-- ** Sidebar DD ** -->
+				<div class="sidebar__dd dropdown">
+					<button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Branch : pune
+						<i class="icon cg-angle-down"></i>
+					</button>
+					<ul class="dropdown-menu cust--dd" aria-labelledby="dLabel">
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+						<li><a href="javascript:void(0);">Option 1</a></li>
+					</ul>
+				</div>
+				<!-- ** Sidebar DD End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord st-opened">
+					<div class="panel-group" id="Professor" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Professor" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Professor <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-dashboard-active"></i>Dashboard
+												<span class="c-count">5</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-homework-active"></i>Homework
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-quiz-active"></i>Quiz
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-notes-active"></i>Notes
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Timetable
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+				<!-- ** Sidebar Accord ** -->
+				<div class="menu--accord">
+					<div class="panel-group" id="Administrator" role="tablist">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab">
+								<a role="button" class="panel-title" data-toggle="collapse" data-parent="#Administrator" href="#menuAdministrator" aria-expanded="true" aria-controls="collapseOne">
+									Administrator <i class="icon cg-angle-down"></i>
+								</a>
+							</div>
+							<div id="menuAdministrator" class="panel-collapse collapse" role="tabpanel">
+								<div class="panel-body">
+									<ul class="sidebar--submenus">
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-adminboard-active"></i>Admin Board
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-classmanager-active"></i>Class Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-facultymanager-active"></i>Faculty Manager
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-studentdirectory-active"></i>Student Directory
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-finance-active"></i>Finance
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-enquiry-active"></i>Enquiry
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="submenu--item">
+												<i class="icon cg-icon-archives-active"></i>Archives
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ** Sidebar Accord End ** -->
+			
+			</div>
+			<!-- ****** Sidebar End ****** -->
+			
+			
+			<!-- ****** Container ****** -->
+			<div class="c-container clearfix">
+				
+				<div class="clearfix">
+					<div class="divider-container">
+						<div class="divider-block text--left">
+							<span class="c-heading-lg">Dashboard</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="c-container__data st--blank">
+					
+					<!-- ** Card Container ** -->
+					<div class="clearfix row">
+						
+						<!-- **** Block 1 **** -->
+						<div class="col-md-9 col-sm-6 col-xs-12">
+						
+							<!-- ** Tabs ** -->
+							<div class="drive_dataSect__tabs  tabs--sm clearfix">
+
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs margin25-bottom" role="tablist">
+									<li role="presentation" class="active"><a href="#tab_FE" aria-controls="tab_FE" role="tab" data-toggle="tab">FIRST YEAR ENGINEERING</a></li>
+									<li role="presentation"><a href="#tab_SE" aria-controls="tab_SE" role="tab" data-toggle="tab">SECOND YEAR ENGINEERING</a></li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+								
+									<!-- ** Tab 1 ** -->
+									<div role="tabpanel" class="tab-pane active" id="tab_FE">
+									
+										<!-- **** Section **** -->
+										<div class="grid-block">
+										
+											
+											<!-- ** Grid Container ** -->
+											<div class="block-cardGrid">
+											
+											
+											
+												<!-- ** Cardgrid Item ** -->
+												<div class="cardgrid--item">
+													<!-- ** Cardgrid title ** -->
+													<div class="cardgrid--item-header">
+														<h2 class="c-heading-sm card--title">
+															MATHEMATICS
+															<span class="c-count pull-right st-colored">NEW</span>
+														</h2>
+														<span>Saturday Batch</span>
+													</div>
+													<!-- ** Cardgrid title End ** -->
+													
+													<!-- ** Cardgrid Listing ** -->
+													<div class="cardgrid--item-section">
+														<ul class="item-listing st-coloured">
+															<li>
+																<i class="icon cg-icon-homework-active"></i>
+																<span>2 New Homeworks</span>
+															</li>
+															<li>
+																<i class="icon cg-icon-quiz-active"></i>
+																<span>2 New Quizes</span>
+															</li>
+														</ul>
+													</div>
+													<!-- ** Cardgrid Listing End ** -->
+												</div>
+												<!-- ** Cardgrid Item End ** -->
+												
+												<!-- ** Cardgrid Item ** -->
+												<div class="cardgrid--item">
+													<!-- ** Cardgrid title ** -->
+													<div class="cardgrid--item-header">
+														<h2 class="c-heading-sm card--title">
+															CHEMISTRY
+															<span class="c-count pull-right st-colored">NEW</span>
+														</h2>
+														<span>Saturday Batch</span>
+													</div>
+													<!-- ** Cardgrid title End ** -->
+													
+													<!-- ** Cardgrid Listing ** -->
+													<div class="cardgrid--item-section">
+														<button class="stud__msg"></button>
+														<ul class="item-listing st-coloured">
+															<li>
+																<i class="icon cg-icon-homework-active"></i>
+																<span>2 New Homeworks </span>
+															</li>
+															<li>
+																<i class="icon cg-icon-notes-active"></i>
+																<span>2 New Notes </span>
+															</li>
+														</ul>
+													</div>
+													<!-- ** Cardgrid Listing End ** -->
+												</div>
+												<!-- ** Cardgrid Item End ** -->
+												
+											</div>
+											<!-- ** Grid Container End ** -->
+											
+										</div>
+										<!-- **** Section End **** -->
+										
+										<!-- **** stud_activities **** -->
+										<div class="stud_activities">
+											<div class="block-title st-colored margin10-bottom">ACTIVITIES (15)</div>
+											<ul>
+												<li>
+													<div class="user_img"><img src="images/avatars/Avatar_4.jpg" alt="" /></div>
+													<div class="msg__info">Samantha Perry commented on homework “<span>Integrals</span>” : ‘Guys, anyone knows how to solve problem 7?  I can’t solve it after ste…’</div>
+													<div class="msg__time">2 hours ago</div>
+												</li>
+												<li>
+													<div class="user_img"><img src="images/avatars/Avatar_4.jpg" alt="" /></div>
+													<div class="msg__info">Samantha Perry commented on homework “<span>Integrals</span>” : ‘Guys, anyone knows how to solve problem 7?  I can’t solve it after ste…’</div>
+													<div class="msg__time">2 hours ago</div>
+												</li>
+												<li>
+													<div class="user_img"><img src="images/avatars/Avatar_4.jpg" alt="" /></div>
+													<div class="msg__info">Samantha Perry commented on homework “<span>Integrals</span>” : ‘Guys, anyone knows how to solve problem 7?  I can’t solve it after ste…’</div>
+													<div class="msg__time">2 hours ago</div>
+												</li>
+											</ul>
+										</div>
+										<!-- **** stud_activities End **** -->
+									</div>
+									<!-- ** Tab 1 End ** -->
+								
+									<!-- ** Tab 2 ** -->
+									<div role="tabpanel" class="tab-pane" id="tab_SE">1</div>
+									<!-- ** Tab 2 End ** -->
+								
+								</div>
+								<!-- Tab panes End -->
+							</div>
+							<!-- ** Tabs End ** -->
+							
+
+							
+						</div>
+						<!-- **** Block 1 End **** -->
+						
+						<!-- ** Block 2 ** -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="block-title st-colored">NOTICE BOARD</div>
+							
+							<div class="clearfix">
+								
+								<!-- ** c-studcard-01 ** -->
+								<div class="c-studcard-01 col-orange">
+									<div class="title__1">Homework Deadline</div>
+									<div class="title__2">12:22:22</div>
+									<div class="title__3">Periodic Table</div>
+									<div class="c-inner-bcrm dot">
+										<span>Physics</span>
+										<span>5 hours ago</span>
+									</div>
+								</div>
+								<!-- ** c-studcard-01 End ** -->
+								
+								<!-- ** c-studcard-01 ** -->
+								<div class="c-studcard-01 st-colour col-red">
+									<div class="title__1">Homework Deadline</div>
+									<div class="title__2">12:22:22</div>
+									<div class="title__3">Periodic Table</div>
+									<div class="c-inner-bcrm dot">
+										<span>Physics</span>
+										<span>5 hours ago</span>
+									</div>
+								</div>
+								<!-- ** c-studcard-01 End ** -->
+								
+							</div>
+							
+							<div class="clearfix">
+							
+								<!-- ** c-studcard-02 ** -->
+								<div class="c-studcard-02">
+									<div class="title__1">Come to class with a set of binoculars tomorrow!</div>
+									<div class="clearfix">
+										<div class="c-inner-bcrm dot pull-left">
+											<span>Physics</span>
+											<span>5 hours ago</span>
+										</div>
+										<div class="pull-right">
+											<div class="prof__pic" data-toggle="tooltip" data-placement="left" title="Prof. Name"><img src="images/avatars/Avatar_10.jpg" /></div>
+										</div>
+									</div>
+								</div>
+								<!-- ** c-studcard-02 End ** -->
+								
+								<!-- ** c-studcard-02 ** -->
+								<div class="c-studcard-02">
+									<div class="title__1">Come to class with a set of binoculars tomorrow!</div>
+									<div class="clearfix">
+										<div class="c-inner-bcrm dot pull-left">
+											<span>Biology</span>
+											<span>Yesterday</span>
+										</div>
+										<div class="pull-right">
+											<div class="prof__pic" data-toggle="tooltip" data-placement="left" title="Prof. Name"><img src="images/avatars/Avatar_10.jpg" /></div>
+										</div>
+									</div>
+								</div>
+								<!-- ** c-studcard-02 End ** -->
+							
+							</div>
+						
+						</div>
+						<!-- ** Block 2 End ** -->
+
+					</div>
+					<!-- ** Card Container End ** -->
+				
+				</div>
+			</div>
+			<!-- ****** Container End ****** -->
+			
+			
+		</div>
+		<!-- ****** body End ****** -->
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
