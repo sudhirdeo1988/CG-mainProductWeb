@@ -69,7 +69,7 @@
 		advanced:{ updateOnContentResize: true }
 	});
 
-	$(".custome-modal__body,.subjectBody,.c-batchSelect, .c-queList").mCustomScrollbar({
+	$(".custome-modal__body,.subjectBody,.c-batchSelect, .c-queList, .chatWindow .cwBody").mCustomScrollbar({
 		theme:"dark",
 		mouseWheel:{ enable: true },
 		advanced:{ updateOnContentResize: true }
@@ -89,6 +89,24 @@
 		advanced:{ updateOnContentResize: true }
 	});
 
+
+	$(".chatWindow .cwBody, .chatStatus, .chatListData").mCustomScrollbar({
+		theme:"dark",
+		autoHideScrollbar: true,
+		mouseWheel:{ enable: true },
+		advanced:{ updateOnContentResize: true }
+	});
+
+	if($(".c-chatModule").length){
+		$('.c-chatModule').delegate('.t-slide', 'click', function(){
+			$(this).parents('.chatSection').toggleClass('st-active');
+		});
+	}
+	if($(".c-chatModule").length){
+		$('.c-chatModule').delegate('.t-attach', 'click', function(){
+			$(this).parents('.cwHeader').toggleClass('st-showAttachments');
+		});
+	}
 	/* --------------------------------------------------------
 	 ESCAPE KEY PRESS
 	----------------------------------------------------------- */
