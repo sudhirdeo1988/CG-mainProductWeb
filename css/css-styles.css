@@ -5489,6 +5489,81 @@ button,a{outline:none;}
 .chatSection .mCSB_scrollTools{width: 10px;}
 
 
+.chatTabs .nav-tabs{border-bottom: 2px solid #990000;}
+.chatTabs .nav-tabs li{margin: 0;}
+.chatTabs .nav-tabs li a{
+	color: #3D3F61;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	padding: 14px 24px 10px;
+	text-transform: uppercase;
+}
+.chatTabs .nav-tabs li.active a{color: #fff; background-color: #990000;}
+.chatTabs .tab-pane .tb{
+	padding: 24px;
+	display: block;
+	background-color: #fff;
+	box-shadow: 0 12px 24px rgba(0,0,0,0.03);
+}
+.chatTabs .tab-pane .tb .tbl{margin-bottom: 36px;}
+.chatTabs .tab-pane .tb .tbl:last-child{margin: 0;}
+
+.custCheck{
+	display: inline-block;
+	position: relative;
+	width: 64px;
+}
+.custCheck .chkBox{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.2;
+}
+.custCheck .chkLbl{
+	border: 1px solid #990000;
+	background-color: #FFE0E0;
+	display: block;
+	height: 28px;
+	position: relative;
+	border-radius: 4px;
+}
+.custCheck .chkLbl .l1,
+.custCheck .chkLbl .l2{
+	color: #990000;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	top: 6px;
+	display: inline-block;
+	opacity: 1;
+}
+.custCheck .chkLbl .l1{left: 6px; right: auto; opacity: 0;}
+.custCheck .chkLbl .l2{right: 6px; left: auto;}
+.custCheck .chkLbl::before{
+	content: '';
+	border: 1px solid #850000;
+	background-color: #990000;
+	position: absolute;
+	height: 20px;
+	width: 22px;
+	top: 3px;
+	left: 3px;
+	border-radius: 3px;
+}
+.custCheck .chkBox:checked ~ .chkLbl .l1{opacity: 1; color: #15BC27;}
+.custCheck .chkBox:checked ~ .chkLbl .l2{opacity: 0;}
+.custCheck .chkBox:checked ~ .chkLbl{border-color: #15BA27; background-color: #D6FADA;}
+.custCheck .chkBox:checked ~ .chkLbl::before{
+	left: auto;
+	right: 4px;
+	border-color: #15BA27;
+	background-color: #15BC27;
+}
+
+
 /* ------------------------------
   Custome Setting	s
 ---------------------------------*/
