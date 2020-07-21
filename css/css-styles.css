@@ -6851,6 +6851,20 @@ label.custome-field.lg.field-radiobtn input[type="radio"]:checked + i:before {
   border-radius: 5px;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
 }
+.loginContainer.sm {
+  padding: 30px 20px;
+  min-height: 320px;
+}
+.loginContainer .li {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.loginContainer .li img {
+  display: inline-block;
+  height: 100px;
+  width: 120px;
+}
 .loginContainer .lt {
   color: #3d3f61;
   display: block;
@@ -6858,6 +6872,12 @@ label.custome-field.lg.field-radiobtn input[type="radio"]:checked + i:before {
   font-size: 28px;
   line-height: 38px;
   margin-bottom: 40px;
+}
+.loginContainer .lt.sm {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 32px;
 }
 .loginContainer .lb {
   text-align: center;
